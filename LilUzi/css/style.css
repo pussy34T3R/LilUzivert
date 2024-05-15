@@ -1,0 +1,26 @@
+.contextual {
+    margin: 1rem !important;
+}
+
+.view-content.row{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    
+}
+
+@media (width >= 1000px){
+    .view-content.row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+a.navbar-brand {
+    display: flex;
+}
+
+.field--type-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
